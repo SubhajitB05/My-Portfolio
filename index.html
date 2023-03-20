@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <header class="header flex">
+        <div class="logo">
+            <a href="#">Portfolio</a>
+        </div>
+
+        <i class="fa-sharp fa-solid fa-bars" id="menu-icon"></i>
+        <!-- <i class="fa-sharp fa-solid fa-xmark" id="menu-icon"></i> -->
+        <nav class="navbar flex" id="sidebar">
+            <a href="#Home" class="active">Home</a>
+            <a href="#About">About</a>
+            <a href="#Services">Services</a>
+            <a href="#Portfolio">Portfolio</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home flex" id="Home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Subhajit Barman</h1>
+            <h3 class="designation">And I'm a <span>Frontend Developer</span> </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita amet optio voluptas officiis similique
+                minus, et dolorem culpa numquam, nesciunt beatae nostrum. Illum dolore omnis, cum numquam aspernatur
+                accusamus eius ipsum nobis rem sunt?</p>
+            <div class="social-media">
+
+            </div>
+            <button class="primary-btn">Download CV</button>
+        </div>
+        <img src="myImg.JPG" class="myImg" alt="myImg">
+    </section>
+
+    <section class="about flex" id="About">
+        <div class="about-img">
+            <img src="myImg.JPG" alt="" class="myImg">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span> </h2>
+            <h3>Frontend Developer</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae ipsa placeat animi fugiat, adipisci
+                numquam debitis quam incidunt amet ab ea ducimus aspernatur illo consectetur eum officiis recusandae,
+                quibusdam asperiores aliquid ad veritatis, earum beatae ratione! Fuga fugit consequuntur accusamus
+                repellendus enim earum?</p>
+            <button class="primary-btn">Read More</button>
+        </div>
+    </section>
+
+    <section class="services" id="Services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container flex">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, error! Ratione quo nam commodi iste
+                    quia, repellat reiciendis odit sint.</p>
+                <button class="primary-btn">Read More</button>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-sharp fa-solid fa-paintbrush"></i>
+                <h3>Graphics Designing</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, error! Ratione quo nam commodi iste
+                    quia, repellat reiciendis odit sint.</p>
+                <button class="primary-btn">Read More</button>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-chart-simple"></i> 
+                <h3>Digital Marketing</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, error! Ratione quo nam commodi iste
+                    quia, repellat reiciendis odit sint.</p>
+                <button class="primary-btn">Read More</button>
+            </div>
+           
+        </div>
+    </section>
+
+    <section class="portfolio" id="Portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="grid-container">
+            <div class="proj1 proj">
+                <img src="proj1.jpg" alt="project1">
+                <div class="layer">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime qui dolor ad atque, illo adipisci maiores dolore aliquid placeat. Nesciunt!
+                </div>
+            </div>
+            <div class="proj2 proj">
+                <img src="proj2.jpg" alt="Project2">
+                <div class="layer">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime qui dolor ad atque, illo adipisci maiores dolore aliquid placeat. Nesciunt!
+                </div>
+            </div>
+            <div class="proj3 proj">
+                <img src="proj3.jpg" alt="Project3">
+                <div class="layer">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime qui dolor ad atque, illo adipisci maiores dolore aliquid placeat. Nesciunt!
+                </div>
+            </div>
+            <div class="proj4 proj">
+                <img src="proj4.jpg" alt="Project4">
+                <div class="layer">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime qui dolor ad atque, illo adipisci maiores dolore aliquid placeat. Nesciunt!
+                </div>
+            </div>
+            <div class="proj5 proj">
+                <img src="proj5.jpg" alt="Project5">
+                <div class="layer">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime qui dolor ad atque, illo adipisci maiores dolore aliquid placeat. Nesciunt!
+                </div>
+            </div>
+            <div class="proj6 proj">
+                <img src="proj6.jpg" alt="Project6">
+                <div class="layer">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime qui dolor ad atque, illo adipisci maiores dolore aliquid placeat. Nesciunt!
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="Contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <div class="name">
+                    <input type="text" placeholder="Full Name">
+                </div>
+                <div class="mail">
+                    <input type="email" placeholder="Email">
+                </div>
+
+            </div>
+            <div class="input-box">
+                <div class="number">
+                    <input type="number" placeholder="Phone Number">
+                </div>
+                <div class="subject">
+                    <input type="text" placeholder="Subject">
+                </div>
+
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="primary-btn">
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Subhajit Barman | All Right Reserved.</p>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/8740aa20b3.js" crossorigin="anonymous"></script>
+    <script>
+        const toggleButton = document.getElementById('menu-icon');
+        const navLinks = document.getElementById('sidebar');
+
+        toggleButton.addEventListener('click', () => {
+            navLinks.classList.toggle('activate');
+        })
+    </script>
+</body>
+
+</html>
